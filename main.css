@@ -9,13 +9,66 @@ body {
 	color: var(--font-color);
 }
 
+a {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    color: var(--font-color);
+}
+
+a:hover {
+    text-decoration-line: none;
+}
+
+td > a:first-of-type {
+    padding-left: 0;
+}
+
+.main-content {
+    height: 100vh;
+}
+
+.row {
+    height: 100vh;
+}
+
 .profile-pic {
     border-radius: 50%;
     border: 10px solid #FFFFFF;
     width: 100%;
-    height: auto;
     max-width: 70vh;
     max-height: 70vh;
-    vertical-align: middle;
 }
 
+/* Text content */
+
+.flex-item {
+    display: flex;
+    align-items: flex-end;
+}
+
+.name {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.5em;
+    line-height: 1em;
+    letter-spacing: 0.07em;
+}
+
+.about {
+    width: 85%;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9em;
+    line-height: 1.5em;
+}
+
+.copyright {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.7em;
+    line-height: 1.5em;
+    color: #9A9999;
+}
