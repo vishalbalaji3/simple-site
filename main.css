@@ -72,3 +72,25 @@ td > a:first-of-type {
     line-height: 1.5em;
     color: #9A9999;
 }
+
+@media only screen and (max-width: 452px) {
+
+  .name {
+    font-size: 2.5em;
+  }
+
+  .text-content, .text-content > * {
+    text-align: center;
+  }
+
+  .flex-item {
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 0em;
+  }
+
+  a {
+    padding-left: 1em;
+    padding-right: 1em;
+  }  
+}
