@@ -90,7 +90,11 @@ td > a:first-of-type {
   }
 
   a {
-    padding-left: 1em;
-    padding-right: 1em;
-  }  
+    padding-left: 0.95em;
+    padding-right: 0.95em;
+  }
+
+  .fa {
+    font-size: 1.1em!important;
+  }
 }
