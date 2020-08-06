@@ -47,7 +47,7 @@ td > a:first-of-type {
 }
 
 .name {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 3.5em;
@@ -57,7 +57,7 @@ td > a:first-of-type {
 
 .about {
     width: 85%;
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 0.9em;
@@ -65,7 +65,7 @@ td > a:first-of-type {
 }
 
 .copyright {
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 0.7em;
