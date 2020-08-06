@@ -43,7 +43,6 @@ td > a:first-of-type {
 
 .flex-item {
     display: flex;
-    align-items: flex-end;
 }
 
 .name {
